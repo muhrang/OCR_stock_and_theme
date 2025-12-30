@@ -34,7 +34,7 @@ DEFAULT_THEME = "미분류"
 # =========================
 @dataclass
 class XingConfig:
-    user_id: str = os.environ.get("XING_USER_ID", ")
+    user_id: str = os.environ.get("XING_USER_ID", "")
     user_pw: str = os.environ.get("XING_USER_PW", "")
     cert_pw: str = os.environ.get("XING_CERT_PW", "")
     server: str = os.environ.get("XING_SERVER", "real")  # real/demo
