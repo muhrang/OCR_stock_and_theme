@@ -1,1 +1,1 @@
-# OCR_stock_and_theme
+32bit and 64bit python
